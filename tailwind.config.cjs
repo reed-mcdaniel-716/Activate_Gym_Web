@@ -20,10 +20,13 @@ export default {
         "mobile-home": "url('./assets/marianne-bos-4eBOAeFfY0w-unsplash-up.png')"
       }),
       fontFamily: {
-        bevan: ["Bevan"]
+        bevan: ["Domine"]
       },
       content: {
-        activatetext: "url('./assets/ActivateTextLight.png')",
+        activatetextlight: "url('./assets/ActivateTextLight.png')",
+        activatetextdark: "url('./assets/ActivateTextDark.png')",
+        logomono: "url('./assets/activate-gym-high-resolution-logo-black-on-transparent-background.png')",
+        logocolor: "url('./assets/activate-gym-high-resolution-logo-color-on-transparent-background.png')",
         arrowright: "url('./assets/marianne-bos-4eBOAeFfY0w-unsplash-right.png')",
         arrowup: "url('./assets/marianne-bos-4eBOAeFfY0w-unsplash-up.png')",
         arrowdown: "url('./assets/marianne-bos-4eBOAeFfY0w-unsplash-down.png')"

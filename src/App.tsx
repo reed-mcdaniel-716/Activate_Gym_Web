@@ -1,5 +1,18 @@
+import {useState} from "react";
+import Navbar from "@/scenes/navbar";
+import { SelectedPage } from "./shared/types";
+
 function App() {
-  return <div className='app'>app</div>;
+  // explicitly naming the state type
+  const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
+  return (
+    <div className='app bg-gray-20'>
+      <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
+    </div>
+  );
 }
 
 export default App;
+
+
+// paused at 1:16
