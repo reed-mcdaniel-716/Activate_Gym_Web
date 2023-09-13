@@ -11,8 +11,8 @@ export default {
         "primary-100": "#e0b0a2",
         "primary-300": "#d1785e",
         "primary-500": "#D33C0F",
-        "secondary-400": "#fcb260",
-        "secondary-500": "#F98F1A",
+        "secondary-400": "#85301e",
+        "secondary-500": "#4E180D",
       },
       backgroundImage: (theme) => ({
         // gray gradient: background: linear-gradient(90deg, rgba(194,194,196,1) 0%, rgba(243,239,235,1) 100%);

@@ -1,4 +1,9 @@
-# React + TypeScript + Vite
+# Activate Gym
+Website for Activate Gym (not a real gym)
+
+Based on Ed Roh's [Build a Complete Typescript React Fitness Application for Beginners](https://youtu.be/I2NNxr3WPDo?feature=shared)
+
+## Stack: React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
