@@ -14,7 +14,22 @@ body,
   @apply text-gray-500;
 }
 
-.scale_image {
+.scale_logo_image {
   object-fit: scale-down;
   width: 120px;
+}
+
+.scale_arrow_image {
+  object-fit: scale-down;
+  width: 120px;
+}
+
+.scale_activate_text_image {
+  object-fit: scale-down;
+  width: 490px;
+}
+
+.scale_homepage_image {
+  object-fit: scale-down;
+  width: 575px;
 }

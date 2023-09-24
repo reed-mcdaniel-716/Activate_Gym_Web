@@ -1,6 +1,6 @@
 // specify size and style of icon in import
 import { Bars3Icon, XMarkIcon} from "@heroicons/react/24/solid";
-import Logo from "@/assets/activate-gym-high-resolution-logo-color-on-transparent-background.png"
+import LogoColor from '@/assets/LogoColor.png';
 import Link from "./Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
@@ -18,7 +18,7 @@ const Navbar = ({selectedPage, setSelectedPage, isTopOfPage}: Props) => {
   const flexBetween = "flex items-center justify-between";
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
-  const navbarBackground = isTopOfPage ? "" : "bg-primary-100 drop-shadow";
+  const navbarBackground = isTopOfPage ? "" : "bg-gray-20 drop-shadow";
   return (
     <nav>
       <div
@@ -27,7 +27,7 @@ const Navbar = ({selectedPage, setSelectedPage, isTopOfPage}: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* LEFT SIDE */}
-            <img alt="activate gym logo" src={Logo} className="scale_image"/>
+            <img alt="activate gym logo" src={LogoColor} className="scale_logo_image"/>
             {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (<div className={`${flexBetween} w-full`}>
               <div className={`${flexBetween} gap-8 text-sm`}>
@@ -44,7 +44,7 @@ const Navbar = ({selectedPage, setSelectedPage, isTopOfPage}: Props) => {
               </div>
             </div>) : (
               <button
-                className="rounded-full bg-secondary-500 p-2"
+                className="rounded-full bg-gray-500 p-2"
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
               ><Bars3Icon className="h-6 w-6 text-gray-20"/></button>
             )}
