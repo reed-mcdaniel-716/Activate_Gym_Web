@@ -37,3 +37,6 @@ If you are developing a production application, we recommend updating the config
 - [Jonathan Borba](https://unsplash.com/@jonathanborba)
 - [Logan Weaver](https://unsplash.com/@lgnwvr)
 - [Sunday || Sunday](https://unsplash.com/@sunday2sunday)
+
+### Generating text as images
+- [picturetopeople](https://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html)

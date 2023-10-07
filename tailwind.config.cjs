@@ -16,27 +16,35 @@ export default {
       },
       backgroundImage: (theme) => ({
         // gray gradient: background: linear-gradient(90deg, rgba(194,194,196,1) 0%, rgba(243,239,235,1) 100%);
-        "gradient-siennacream": "linear-gradient(90deg, rgba(211,60,15,1) 0%, rgba(243,239,235,1) 100%)",
-        "mobile-home": "url('./assets/marianne-bos-4eBOAeFfY0w-unsplash-up.png')"
+        "gradient-siennacream":
+          "linear-gradient(90deg, rgba(211,60,15,1) 0%, rgba(243,239,235,1) 100%)",
+        "mobile-home": "url('./assets/ArrowUp.png')",
       }),
       fontFamily: {
-        bevan: ["Domine"]
+        bevan: ["Domine"],
       },
       content: {
-        activatetextlight: "url('./assets/ActivateTextLight.png')",
+        activatetextprimary: "url('./assets/ActivateTextPrimary.png')",
         activatetextdark: "url('./assets/ActivateTextDark.png')",
-        logomono: "url('./assets/activate-gym-high-resolution-logo-black-on-transparent-background.png')",
-        logocolor: "url('./assets/activate-gym-high-resolution-logo-color-on-transparent-background.png')",
-        arrowright: "url('./assets/marianne-bos-4eBOAeFfY0w-unsplash-right.png')",
-        arrowup: "url('./assets/marianne-bos-4eBOAeFfY0w-unsplash-up.png')",
-        arrowdown: "url('./assets/marianne-bos-4eBOAeFfY0w-unsplash-down.png')"
-      }
+        logomono:
+          "url('./assets/activate-gym-high-resolution-logo-black-on-transparent-background.png')",
+        logocolor:
+          "url('./assets/activate-gym-high-resolution-logo-color-on-transparent-background.png')",
+        arrowright: "url('./assets/ArrowRight.png')",
+        arrowup: "url('./assets/ArrowUp.png')",
+        arrowdown: "url('./assets/ArrowDown.png')",
+        boxing: "url('./assets/Boxing.jpg')",
+        crunches: "url('./assets/Crunches.jpg')",
+        outsidesquat: "url('./assets/OutsideSquat.jpg')",
+        personaltraining: "url('./assets/PersonalTraining.jpg')",
+        strengthtraining: "url('./assets/StrengthTraining.jpg')",
+      },
     },
     screens: {
       xs: "480px",
       sm: "768px",
-      md: "1060px"
-    }
+      md: "1060px",
+    },
   },
   plugins: [],
 };

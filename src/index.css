@@ -21,15 +21,17 @@ body,
 
 .scale_arrow_image {
   object-fit: scale-down;
-  width: 120px;
-}
-
-.scale_activate_text_image {
-  object-fit: scale-down;
-  width: 490px;
+  width: 100px;
 }
 
 .scale_homepage_image {
   object-fit: scale-down;
   width: 575px;
+  border-radius: 1%;
+}
+
+.scale_benefits_image {
+  object-fit: scale-down;
+  width: 490px;
+  border-radius: 1%;
 }
