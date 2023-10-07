@@ -1,4 +1,6 @@
 # Activate Gym
+
+![activate gym logo](src/assets/LogoColor.png)
 Website for Activate Gym (not a real gym)
 
 Based on Ed Roh's [Build a Complete Typescript React Fitness Application for Beginners](https://youtu.be/I2NNxr3WPDo?feature=shared)
@@ -39,4 +41,5 @@ If you are developing a production application, we recommend updating the config
 - [Sunday || Sunday](https://unsplash.com/@sunday2sunday)
 
 ### Generating text as images
+
 - [picturetopeople](https://www.picturetopeople.org/text_generator/others/transparent/transparent-text-generator.html)
