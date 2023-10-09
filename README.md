@@ -3,6 +3,8 @@
 ![activate gym logo](src/assets/LogoColor.png)
 Website for Activate Gym (not a real gym)
 
+Check out the website [here](https://radiant-stroopwafel-8d84a2.netlify.app/)
+
 Based on Ed Roh's [Build a Complete Typescript React Fitness Application for Beginners](https://youtu.be/I2NNxr3WPDo?feature=shared)
 
 ## Stack: React + TypeScript + Vite
