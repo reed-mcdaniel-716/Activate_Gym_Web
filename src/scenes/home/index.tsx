@@ -83,9 +83,9 @@ const Home = ({ setSelectedPage }: Props) => {
       </motion.div>
       {/* BANNER */}
       {isAboveMediumScreens && (
-        <div className="h-[150px] w-full bg-primary-100 py-10">
+        <div className="h-[170px] w-full bg-primary-100 py-10">
           <div className="mx-auto w-5/6">
-            <div className="flex w-3/5 items-center justify-between gap-8">
+            <div className="w-7/8 flex items-center justify-center gap-60">
               <img alt="arrow-up" src={ArrowUp} className="scale_arrow_image" />
               <img
                 alt="arrow-right"

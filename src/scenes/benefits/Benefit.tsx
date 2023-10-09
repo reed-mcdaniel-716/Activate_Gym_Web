@@ -18,8 +18,8 @@ type Props = {
 const Benefit = ({ key, icon, title, description, setSelectedPage }: Props) => {
   return (
     <motion.div
-      variants={childVariant}
       id={`#id-${key}`}
+      variants={childVariant}
       className="mt-5 rounded-md border-2 border-gray-100 px-5 py-16 text-center"
     >
       <div className="mb-4 flex justify-center">
